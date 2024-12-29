@@ -1,0 +1,5 @@
+opencv-contrib-python
+face-recognition
+numpy
+pandas
+pillow
