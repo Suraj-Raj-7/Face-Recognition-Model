@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance System</title>
+</head>
+<body>
+    <h1>Face Recognition Attendance System</h1>
+    <p>Welcome to the face recognition-based attendance system. The video feed below detects and marks attendance in real-time.</p>
+    <div>
+        <img src="{{ url_for('video_feed') }}" alt="Live Video Feed" style="border: 2px solid black; width: 720px; height: auto;">
+    </div>
+    <p>Press <strong>Q</strong> in the video feed to stop the application.</p>
+</body>
+</html>
